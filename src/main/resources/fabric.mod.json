@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "shipuchkavisual",
+  "version": "1.0.0",
+  "name": "Shipuchka Visual",
+  "description": "Visual mod",
+  "authors": ["Shipuchka"],
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ru.shipuchka.visual.ShipuchkaVisual"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1"
+  }
+}
